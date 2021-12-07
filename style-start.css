@@ -144,6 +144,10 @@ h3 {
 
 /* components */
 .testimonial-grid {
+
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 100px;
   padding-block: 2rem;
   width: min(95%, 70rem);
   margin-inline: auto;
